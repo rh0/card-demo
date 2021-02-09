@@ -1,4 +1,6 @@
-# cards
+# Cards Demonstration :flower_playing_cards:
+
+A demonstration of using a statically served javascript application to consume and interact with the Drupal CMS JSON:API.
 
 ## Build Setup
 
