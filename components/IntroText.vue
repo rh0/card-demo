@@ -4,7 +4,7 @@
     <v-card-subtitle>A Simple Flashcard Application</v-card-subtitle>
 
     <v-card-text>
-      <p>This application if built with NuxtJS with the Vuetify UI framework, and deployed to GitHub pages. It communicates with a Drupal installation acting as a backend 'headless' CMS via axios and Drupal's JSON:API. This architecture allows for decoupling of the CMS concerns and the front end presentation layer.</p>
+      <p>This application if built with NuxtJS with the Vuetify UI framework, and deployed to GitHub pages. It communicates with a Drupal installation acting as a backend 'headless' CMS via axios and Drupal's JSON:API. This architecture allows for decoupling of the backend CMS concerns and the front end presentation layer.</p>
       <ul>
         <li>
           For more information on Vuetify, check out the 

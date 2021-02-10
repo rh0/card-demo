@@ -5,9 +5,20 @@
         <logo />
       </div>
     </v-col>
-    <v-col cols="12 "md="7" sm="8">
+    <v-col cols="12" md="7" sm="8">
       <IntroText></IntroText>
     </v-col>
+    <v-card
+      flat
+      tile
+      color="transparent"
+    >
+    <v-card-title>Top Level Diagram of WTF is going on.</v-card-title>
+      <v-card-text>
+        <img src="/component-diagram-dark.svg"/>
+      </v-card-text>
+    </v-card>
+
   </v-row>
 </template>
 
