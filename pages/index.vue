@@ -8,16 +8,7 @@
     <v-col cols="12" md="7" sm="8">
       <IntroText></IntroText>
     </v-col>
-    <v-card
-      flat
-      tile
-      color="transparent"
-    >
-    <v-card-title>Top Level Diagram of WTF is going on.</v-card-title>
-      <v-card-text>
-        <img src="/component-diagram-dark.svg"/>
-      </v-card-text>
-    </v-card>
+    <ArchDiagram></ArchDiagram>
 
   </v-row>
 </template>
@@ -25,11 +16,13 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import IntroText from '~/components/IntroText.vue'
+import ArchDiagram from '~/components/ArchDiagram.vue'
 
 export default {
   components: {
     Logo,
-    IntroText
+    IntroText,
+    ArchDiagram
   }
 }
 </script>
