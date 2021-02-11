@@ -17,25 +17,45 @@
         </v-card>
       </v-col>
     </v-row>
-    <v-row> 
+    <v-row align-content="stretch"> 
       <v-col
-        v-for="c in 25"
-        :key="c"
+        v-for="(deck, d) in deckList"
+        :key="d"
         cols="12"
         sm="4"
-        md="3"
+        lg="3"
       >
-        <v-card
-          hover
-          ripple
-        >
-          <v-card-title>A Deck!</v-card-title>
-          <v-card-text>Some describption of the deck.</v-card-text>
-        </v-card>
+        <DeckCard :deck="deck"></DeckCard>
       </v-col>
     </v-row>
   </div>
 </template>
+
+<script>
+import { mapGetters, mapActions } from 'vuex'
+import DeckCard from '../components/deck/DeckCard.vue'
+
+export default {
+  components: {
+    DeckCard
+  },
+
+  computed: {
+    ...mapGetters(['deckList'])
+  },
+
+  methods: {
+    ...mapActions(['getDeckList'])
+  },
+
+  async created() {
+    // Fetch the deck list (taxonomy terms) ordred by weight.
+    await this.getDeckList({
+      sort: 'weight'
+    })
+  }
+}
+</script>
 
 <style scoped>
 

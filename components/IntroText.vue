@@ -1,20 +1,20 @@
 <template>
   <v-card>
-    <v-card-title>Cards</v-card-title>
-    <v-card-subtitle>A Simple Flashcard Application</v-card-subtitle>
+    <v-card-title class="text-h2">Cards</v-card-title>
+    <v-card-subtitle class="text-h6">A Simple Flashcard Application</v-card-subtitle>
 
     <v-card-text>
       <p>This application if built with NuxtJS with the Vuetify UI framework, and deployed to GitHub pages. It communicates with a Drupal installation acting as a backend 'headless' CMS via axios and Drupal's JSON:API. This architecture allows for decoupling of the backend CMS concerns and the front end presentation layer.</p>
       <ul>
         <li>
-          For more information on Vuetify, check out the 
+          Check out
           <a
-            href="https://vuetifyjs.com"
+            href="https://nuxtjs.org/"
             target="_blank"
             rel="noopener noreferrer"
-            >
-            documentation
-          </a>.
+          >
+          NuxtJS
+          </a>, a Vue.js framework for SSR and SSG (aka JAMStack) sitebuilding.
         </li>
         <li>
           For more information on Drupal's JSON:API, check out the
@@ -34,6 +34,16 @@
             rel="noopener noreferrer"
           >
           repo
+          </a> on GitHub.
+        </li>
+        <li>
+          For more information on the Vuetify UI Framework, check out the 
+          <a
+            href="https://vuetifyjs.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            documentation
           </a>.
         </li>
       </ul>
@@ -55,6 +65,14 @@
       </a>
       <br>
       <a
+        href="https://vuetifyjs.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Vuetify Documentation
+      </a>
+      <br>
+      <a
         href="https://github.com/rh0/card-demo/"
         target="_blank"
         rel="noopener noreferrer"
@@ -66,7 +84,18 @@
       <v-btn
         to="decks"
       >
-        Choose a Deck to Begin
+        <v-icon left small dark>
+          mdi-cards
+        </v-icon>
+        Choose a Deck
+      </v-btn>
+      <v-btn
+        to="architecture"
+      >
+        <v-icon left small dark>
+          mdi-domain
+        </v-icon>
+        About the Build
       </v-btn>
     </v-card-actions>
   </v-card>
