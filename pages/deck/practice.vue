@@ -85,7 +85,7 @@
       </v-card-actions>
       <v-card-actions v-else-if="!empty" class="mt-auto flex-wrap">
       <v-btn
-        to="decks"
+        to="/decks"
       >
         <v-icon left small dark>
           mdi-cards
@@ -106,7 +106,7 @@ export default {
       'deck',
       'cardList'
     ]),
-    
+
     empty: function () {
       return this.cardList.length === 0
     }
@@ -128,7 +128,7 @@ export default {
     showResponse: function () {
       this.showAnswer = !this.showAnswer
     },
-    
+
     nextCard: function (correct) {
       this.showAnswer = false
 
