@@ -48,7 +48,7 @@ export default {
     ...mapActions(['getDeckList'])
   },
 
-  async created() {
+  async fetch() {
     // Fetch the deck list (taxonomy terms) ordred by weight.
     await this.getDeckList({
       sort: 'weight'

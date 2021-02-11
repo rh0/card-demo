@@ -13,6 +13,7 @@
         small
         ripple
         nuxt
+        @click="toDeckPractice"
       >
         <v-icon small dark class="mr-1">
           mdi-dumbbell
@@ -23,7 +24,7 @@
         small
         ripple
         nuxt
-        :to="'/deck/' + deck.id"
+        @click="toDeckInfo"
       >
         <v-icon small dark class="mr-1">
           mdi-clipboard-list
@@ -35,7 +36,27 @@
 </template>
 
 <script>
+import { mapMutations, actions } from 'vuex'
+
 export default {
-  props: ['deck']
+  props: ['deck'],
+
+  methods: {
+    ...mapMutations(['setDeck']),
+
+    // Pass the selected deck up to the store, so the table will
+    // know which one to render.
+    toDeckInfo: function () {
+      this.setDeck(this.deck)
+      this.$router.push({path: '/deck'})
+    },
+
+    // Pass the selected deck up to the store, so the table will
+    // know which one to render.
+    toDeckPractice: function () {
+      this.setDeck(this.deck)
+      this.$router.push({path: '/deck/practice'})
+    }
+  }
 }
 </script>

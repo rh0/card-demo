@@ -45,6 +45,7 @@ export const actions = {
       }
     })
     .then((resp) => {
+      // Set the list of decks.
       commit('setDeckList', resp.data.data)
     })
     .catch((err) => {
@@ -61,6 +62,7 @@ export const actions = {
       }
     })
     .then((resp) => {
+      // Set the deck state.
       commit('setDeck', resp.data.data)
     })
     .catch((err) => {
@@ -71,6 +73,10 @@ export const actions = {
 
   // Fetch a list of 'card' nodes.
   getCardList ({ commit }, params) {
+    // Since we're fetching a deck at a time, include the deck
+    // term in the reponce.
+    params.include = 'field_deck'
+
     axios.get('https://live-cards-demo.pantheonsite.io/jsonapi/node/card', {
       params: params,
       headers: {
@@ -79,11 +85,17 @@ export const actions = {
       }
     })
     .then((resp) => {
+      console.log(resp)
+      // Set the list of cards.
       commit('setCardList', resp.data.data)
+
+      // Set the deck state.
+      if (resp.data.included !== undefined) {
+        commit('setDeck', resp.data.included.shift())
+      }
     })
-    .catch((err) => {
+    .catch(() => {
       console.error('There was an error fetching the card list!')
-      console.error(err)
     })
   }
 }
