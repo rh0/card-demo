@@ -85,7 +85,6 @@ export const actions = {
       }
     })
     .then((resp) => {
-      console.log(resp)
       // Set the list of cards.
       commit('setCardList', resp.data.data)
 
