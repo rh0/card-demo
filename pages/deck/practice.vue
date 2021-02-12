@@ -98,9 +98,11 @@
 </template>
 
 <script>
-import { mapGetters, mapActions} from 'vuex'
+import { mapGetters } from 'vuex'
 
 export default {
+  fetchOnServer: false,
+
   computed: {
     ...mapGetters([
       'deck',
@@ -121,10 +123,6 @@ export default {
   }),
 
   methods: {
-    ...mapActions([
-      'getCardList'
-    ]),
-
     showResponse: function () {
       this.showAnswer = !this.showAnswer
     },
@@ -149,7 +147,7 @@ export default {
 
   async fetch() {
     // Grab the Card nodes tagged with this deck.
-    await this.getCardList({
+    await this.$store.dispatch('getCardList', {
       filter: {
         'field_deck.id': {
           value: this.deck.id

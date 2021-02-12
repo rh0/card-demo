@@ -22,10 +22,12 @@
 </template>
 
 <script>
-import { mapGetters, mapActions} from 'vuex'
+import { mapGetters} from 'vuex'
 import cardsTable from '../../components/cardsTable.vue'
 
 export default {
+  fetchOnServer: false,
+
   components: {
     cardsTable
   },
@@ -37,15 +39,9 @@ export default {
     ])
   },
 
-  methods: {
-    ...mapActions([
-      'getCardList'
-    ])
-  },
-
   async fetch() {
     // Grab the Card nodes tagged with this deck.
-    await this.getCardList({
+    await this.$store.dispatch('getCardList', {
       filter: {
         'field_deck.id': {
           value: this.deck.id

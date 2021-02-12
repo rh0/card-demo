@@ -32,10 +32,12 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
+import { mapGetters } from 'vuex'
 import DeckCard from '../components/deck/DeckCard.vue'
 
 export default {
+  fetchOnServer: false,
+
   components: {
     DeckCard
   },
@@ -44,13 +46,9 @@ export default {
     ...mapGetters(['deckList'])
   },
 
-  methods: {
-    ...mapActions(['getDeckList'])
-  },
-
   async fetch() {
     // Fetch the deck list (taxonomy terms) ordred by weight.
-    await this.getDeckList({
+    await this.$store.dispatch('getDeckList', {
       sort: 'weight'
     })
   }
