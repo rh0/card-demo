@@ -36,8 +36,8 @@ export const mutations = {
 export const actions = {
 
   // Fetch a list of 'deck' taxonomy terms.
-  getDeckList ({ commit }, params) {
-    axios.get('https://live-cards-demo.pantheonsite.io/jsonapi/taxonomy_term/deck', {
+  async getDeckList ({ commit }, params) {
+    await axios.get('https://live-cards-demo.pantheonsite.io/jsonapi/taxonomy_term/deck', {
       params: params,
       headers: {
         'Accept': 'application/vnd.api+json',
@@ -54,8 +54,8 @@ export const actions = {
     })
   },
 
-  getDeck ({ commit }, deckUuid) {
-    axios.get(`https://live-cards-demo.pantheonsite.io/jsonapi/taxonomy_term/deck/${deckUuid}`, {
+  async getDeck ({ commit }, deckUuid) {
+    await axios.get(`https://live-cards-demo.pantheonsite.io/jsonapi/taxonomy_term/deck/${deckUuid}`, {
       headers: {
         'Accept': 'application/vnd.api+json',
         'Content-Type': 'application/vnd.api+json'
@@ -72,12 +72,12 @@ export const actions = {
   },
 
   // Fetch a list of 'card' nodes.
-  getCardList ({ commit }, params) {
+  async getCardList ({ commit }, params) {
     // Since we're fetching a deck at a time, include the deck
     // term in the reponce.
     params.include = 'field_deck'
 
-    axios.get('https://live-cards-demo.pantheonsite.io/jsonapi/node/card', {
+    await axios.get('https://live-cards-demo.pantheonsite.io/jsonapi/node/card', {
       params: params,
       headers: {
         'Accept': 'application/vnd.api+json',
