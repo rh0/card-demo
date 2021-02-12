@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   contentScriptType="application/ecmascript"
+   contentStyleType="text/css"
+   height="554px"
+   preserveAspectRatio="none"
+   style="width:771px;height:554px;"
+   version="1.1"
+   viewBox="0 0 771 554"
+   width="771px"
+   zoomAndPan="magnify"
+   id="svg1133">
+  <metadata
+     id="metadata1137">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1021">
+    <filter
+       height="300%"
+       id="f1979s335nar6y"
+       width="300%"
+       x="-1"
+       y="-1">
+      <feGaussianBlur
+         result="blurOut"
+         stdDeviation="2.0"
+         id="feGaussianBlur1012" />
+      <feColorMatrix
+         in="blurOut"
+         result="blurOut2"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
+         id="feColorMatrix1014" />
+      <feOffset
+         dx="4.0"
+         dy="4.0"
+         in="blurOut2"
+         result="blurOut3"
+         id="feOffset1016" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut3"
+         mode="normal"
+         id="feBlend1018" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter1141">
+      <feColorMatrix
+         values="0 0 -1 0 1 0 -1 0 0 1 -1 0 0 0 1 -0.21 -0.72 -0.07 2 0 "
+         result="color2"
+         id="feColorMatrix1139" />
+    </filter>
+  </defs>
+  <g
+     id="g1131"
+     style="filter:url(#filter1141)">
+    <!--MD5=[dbfa556339e88fc44744d7c3fa2448af]
+cluster Pantheon-->
+    <path
+       d="M298.3162,120.7565 C306.8873,106.5387 317.7188,104.3523 328.5026,118.3928 C336.5784,100.354 351.4187,99.4357 362.9024,114.8928 C372.442,100.0348 383.4521,102.5217 392.9084,114.9843 C401.2458,101.0813 417.5881,100.2327 425.6861,115.2557 C436.4054,101.2963 444.4603,105.5127 452.848,117.6797 C464.6462,101.9247 475.1813,99.6364 486.8182,117.8412 C495.2641,102.8949 510.1895,103.5672 519.2131,117.1861 C529.475,103.9481 539.6531,105.158 549.0382,118.1818 C556.2864,101.6975 566.744,101.3847 578.796,113.1153 C588.944,98.4688 601.175,102.7055 608.9434,115.7097 C618.5228,103.3093 632.6333,103.1314 639.6449,118.5442 C647.2125,102.1445 663.0949,103.8467 671.9509,117.1425 C679.8504,101.3207 693.7826,104.1629 702.1419,116.6521 C717.9723,100.7275 729.0786,104.6154 739,123 C740.2252,122.2873 741.3626,122.8611 741.1881,124.3753 C756.84,134.8246 754.0985,147.2085 740.7619,157.2824 C754.6269,163.5523 760.1563,176.0319 746.5174,187.5345 C762.1635,198.4035 764.2718,211.5922 747.3667,223.2356 C760.607,236.3467 759.4235,246.6379 744.3843,257.271 C760.9609,266.5593 761.0464,275.6827 746.1238,286.825 C760.7573,294.981 762.9021,310.5398 745.9394,318.5119 C759.8509,329.7763 758.2878,341.0029 744.3371,350.8885 C757.2844,368.0384 754.904,382.7683 732,388 C735.4234,388.0716 736.6499,390.1884 734.8376,393.1467 C725.5049,407.1224 710.8399,408.889 703.5408,391.1404 C693.977,406.5401 685.3409,407.4106 674.8035,392.0499 C665.4193,410.2773 648.5403,405.8964 640.0176,391.1413 C632.8131,405.0037 619.3615,406.2913 611.3744,391.9356 C604.4007,408.3516 591.0445,407.4874 580.596,395.732 C570.5564,409.6071 559.546,412.7575 548.8526,396.4189 C540.744,412.6564 523.3679,416.0171 513.6515,398.0747 C502.6849,412.9651 492.0867,409.523 484.5096,394.7453 C473.6109,409.6738 461.475,408.1336 452.6454,392.5821 C442.2173,408.2726 431.7285,410.1555 419.9153,394.006 C409.9478,409.4621 394.9966,403.7123 388.7636,390.0155 C382.6154,407.8968 369.4965,409.6655 358.1907,394.836 C347.9107,406.1511 338.4593,408.1323 329.6135,393.2703 C313.1181,408.5044 293.6048,402.7001 288,381 C289.8371,381.2081 290.7111,382.1394 289.8893,384.0142 C274.0296,376.9126 272.3786,364.3162 287.0422,354.2909 C272.1249,342.9235 269.2684,331.7219 286.4799,319.8302 C269.1648,313.1499 265.0911,300.8627 278.4084,286.7159 C266.0598,277.9339 265.5911,264.6927 280.4509,257.8348 C260.9792,246.1255 265.3152,233.8623 280.2776,221.9865 C264.6524,208.5197 264.7745,197.1762 284.4593,188.0619 C272.8672,179.7332 270.9776,168.77 284.8605,160.8164 C267.9512,144.9141 272.9449,123.0868 295,116 C297.9681,115.7724 299.822,117.8649 298.3162,120.7565 "
+       fill="#FFFFFF"
+       filter="url(#f1979s335nar6y)"
+       style="stroke:#000000;stroke-width:1.5;"
+       id="path1023" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="bold"
+       lengthAdjust="spacing"
+       textLength="77"
+       x="475"
+       y="133.9951"
+       id="text1025">Pantheon</text>
+    <!--MD5=[faa30403497b6f6371de07bb7e981283]
+cluster Drupal-->
+    <rect
+       fill="#FFFFFF"
+       filter="url(#f1979s335nar6y)"
+       height="221"
+       style="stroke:#000000;stroke-width:1.5;"
+       width="188"
+       x="304"
+       y="151"
+       id="rect1027" />
+    <path
+       d="M367,151 L367,160.2969 L357,170.2969 L304,170.2969 "
+       fill="none"
+       style="stroke:#000000;stroke-width:1.5;"
+       id="path1029" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="bold"
+       lengthAdjust="spacing"
+       textLength="53"
+       x="307"
+       y="164.9951"
+       id="text1031">Drupal</text>
+    <!--MD5=[ff0e712857663c0112505e6ec4d7718c]
+cluster GitHub Pages-->
+    <path
+       d="M31.7163,156.1764 C34.7352,147.5465 42.9943,146.9744 48.6241,153.2058 C51.3237,145.1227 57.631,145.7067 62.421,151.0591 C67.559,142.3713 72.7456,144.295 78.247,150.6774 C81.2175,142.1692 87.4,139.9396 93.8832,147.1926 C97.9941,141.1191 103.0051,141.1123 107.1337,147.1733 C110.7231,139.913 115.1092,138.1027 121.0313,144.8606 C125.8376,135.1847 134.1391,135.5182 138.9188,144.8855 C143.2722,137.0812 148.115,138.138 153.1595,144.1746 C159.5542,137.8555 163.8791,139.6666 167.4522,147.1058 C171.4009,140.5511 177.2831,139.9279 181.0716,147.2628 C186.8009,141.6056 192.682,142.9451 196.2137,149.9009 C202.2784,140.9426 210.8726,143.6179 213.9433,152.8233 C217.8219,147.8388 222.4375,147.481 226.2441,152.9084 C237.2292,146.5557 244.7062,146.6732 248,161 C249.078,160.5321 249.9028,160.6948 250.0101,162.0629 C258.2787,166.0891 260.0454,174.1252 250.9543,179.1128 C258.9649,185.1548 258.4882,190.8258 249.5302,195.3826 C258.9021,198.4378 261.1092,206.842 252.5175,212.9515 C258.6802,216.7696 258.9938,223.7049 253.0453,227.9493 C262.3602,233.5331 260.8681,239.7716 253.1239,245.4321 C260.4744,250.0079 260.4461,255.6506 254.2578,261.2 C260.2224,265.7798 261.4733,271.8872 253.4148,275.649 C259.5595,282.0714 260.5648,288.6919 250.5214,292.3016 C259.3716,296.7778 257.7783,303.3528 251.3426,308.5992 C261.159,313.1427 260.7682,322.0381 251.9447,327.1854 C258.0051,332.6723 256.3426,337.9345 249.8428,341.5884 C259.1288,353.8813 254.8864,360.8501 241,364 C241.4011,364.2412 241.4065,364.5225 241.0844,364.8367 C237.1951,371.2645 232.0405,371.9448 226.9369,366.2543 C222.7501,374.0991 217.7092,373.0145 212.8179,366.9705 C207.8856,373.6343 201.6841,372.9232 198.7295,365.0535 C194.9929,372.7557 189.0822,373.7972 182.6502,368.3493 C177.0497,375.907 171.8228,375.4627 167.4779,367.149 C163.7927,373.2391 157.5862,375.5036 152.9733,368.15 C147.0461,375.543 141.0324,374.4998 136.7059,366.4625 C133.1247,372.8384 127.5524,373.6652 123.6661,366.7622 C118.2501,374.4141 113.2648,373.1653 107.9463,366.654 C103.3899,374.7247 97.8531,374.1168 93.0955,366.8487 C88.9252,374.5426 82.5922,374.6161 77.8014,367.4889 C72.2641,374.6851 66.7875,374.2073 62.6798,366.0783 C57.9328,374.0895 50.2983,371.7974 46.8851,364.6853 C35.6748,372.4116 28.1513,370.2939 24,357 C25.8781,356.6913 27.2691,358.066 26.563,359.98 C16.7857,354.3408 16.6735,347.0881 26.425,341.3045 C19.0936,336.8778 18.0671,331.778 23.8809,325.2661 C16.3932,320.7503 16.6087,314.3074 23.5414,309.4813 C15.5527,304.4082 16.5161,297.1939 25.2874,294.0126 C16.4929,288.4587 16.3746,280.9878 25.6115,275.7539 C19.7341,272.283 19.701,265.4838 25.5955,261.9992 C16.1264,256.4066 17.8597,249.3329 25.2019,243.3849 C17.2655,238.1465 15.6488,232.2191 24.7189,226.4943 C17.568,223.2356 16.5469,216.6809 23.4869,212.2071 C15.9738,205.437 15.9993,198.1209 26.3398,194.1756 C19.406,190.3607 17.9662,183.4443 25.3827,178.7396 C16.9618,169.2803 18.3115,158.6663 31,154 C32.2683,154.2373 32.5704,155.2406 31.7163,156.1764 "
+       fill="#FFFFFF"
+       filter="url(#f1979s335nar6y)"
+       style="stroke:#000000;stroke-width:1.5;"
+       id="path1033" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="bold"
+       lengthAdjust="spacing"
+       textLength="109"
+       x="81.5"
+       y="171.9951"
+       id="text1035">GitHub Pages</text>
+    <!--MD5=[8699c0c8e953ee53654a072cc875bfb4]
+cluster Browser-->
+    <polygon
+       fill="#FFFFFF"
+       filter="url(#f1979s335nar6y)"
+       points="80,455,90,445,374,445,374,537,364,547,80,547,80,455"
+       style="stroke:#000000;stroke-width:1.5;"
+       id="polygon1037" />
+    <line
+       style="stroke:#000000;stroke-width:1.5;"
+       x1="364"
+       x2="374"
+       y1="455"
+       y2="445"
+       id="line1039" />
+    <line
+       style="stroke:#000000;stroke-width:1.5;"
+       x1="80"
+       x2="364"
+       y1="455"
+       y2="455"
+       id="line1041" />
+    <line
+       style="stroke:#000000;stroke-width:1.5;"
+       x1="364"
+       x2="364"
+       y1="455"
+       y2="547"
+       id="line1043" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="bold"
+       lengthAdjust="spacing"
+       textLength="66"
+       x="190"
+       y="470.9951"
+       id="text1045">Browser</text>
+    <!--MD5=[2519f4b563146138a779359188ab3db5]
+entity MySql-->
+    <path
+       d="M508,314.5 C508,304.5 539,304.5 539,304.5 C539,304.5 570,304.5 570,314.5 L570,339.7969 C570,349.7969 539,349.7969 539,349.7969 C539,349.7969 508,349.7969 508,339.7969 L508,314.5 "
+       fill="#FEFECE"
+       filter="url(#f1979s335nar6y)"
+       style="stroke:#000000;stroke-width:1.5;"
+       id="path1047" />
+    <path
+       d="M508,314.5 C508,324.5 539,324.5 539,324.5 C539,324.5 570,324.5 570,314.5 "
+       fill="none"
+       style="stroke:#000000;stroke-width:1.5;"
+       id="path1049" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       lengthAdjust="spacing"
+       textLength="42"
+       x="518"
+       y="341.4951"
+       id="text1051">MySql</text>
+    <!--MD5=[c9eff2b16e2834f3fdc251c343bb8d22]
+entity File System-->
+    <polygon
+       fill="#FEFECE"
+       filter="url(#f1979s335nar6y)"
+       points="605.5,299,651.5,299,658.5,320,730.5,320,730.5,354.5938,605.5,354.5938,605.5,299"
+       style="stroke:#000000;stroke-width:1.5;"
+       id="polygon1053" />
+    <line
+       style="stroke:#000000;stroke-width:1.5;"
+       x1="605.5"
+       x2="658.5"
+       y1="320"
+       y2="320"
+       id="line1055" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       lengthAdjust="spacing"
+       textLength="83"
+       x="615.5"
+       y="339.9951"
+       id="text1057">File System</text>
+    <!--MD5=[7b8d1a00a803331342c2d115f4bd69bf]
+entity PHP Application-->
+    <rect
+       fill="#FEFECE"
+       filter="url(#f1979s335nar6y)"
+       height="46.2969"
+       style="stroke:#A80036;stroke-width:1.5;"
+       width="155"
+       x="320.5"
+       y="186"
+       id="rect1059" />
+    <rect
+       fill="#FEFECE"
+       height="10"
+       style="stroke:#A80036;stroke-width:1.5;"
+       width="15"
+       x="455.5"
+       y="191"
+       id="rect1061" />
+    <rect
+       fill="#FEFECE"
+       height="2"
+       style="stroke:#A80036;stroke-width:1.5;"
+       width="4"
+       x="453.5"
+       y="193"
+       id="rect1063" />
+    <rect
+       fill="#FEFECE"
+       height="2"
+       style="stroke:#A80036;stroke-width:1.5;"
+       width="4"
+       x="453.5"
+       y="197"
+       id="rect1065" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       lengthAdjust="spacing"
+       textLength="115"
+       x="335.5"
+       y="218.9951"
+       id="text1067">PHP Application</text>
+    <!--MD5=[76881597c47db72eae76d80d847092a9]
+entity JSON:API-->
+    <ellipse
+       cx="369"
+       cy="327"
+       fill="#FEFECE"
+       filter="url(#f1979s335nar6y)"
+       rx="8"
+       ry="8"
+       style="stroke:#A80036;stroke-width:1.5;"
+       id="ellipse1069" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       lengthAdjust="spacing"
+       textLength="62"
+       x="338"
+       y="356.9951"
+       id="text1071">JSON:API</text>
+    <!--MD5=[670ca0dff26170e9007432ed58847d4e]
+entity Static Application Files-->
+    <polygon
+       fill="#FEFECE"
+       filter="url(#f1979s335nar6y)"
+       points="32,181,78,181,85,202,240,202,240,236.5938,32,236.5938,32,181"
+       style="stroke:#000000;stroke-width:1.5;"
+       id="polygon1073" />
+    <line
+       style="stroke:#000000;stroke-width:1.5;"
+       x1="32"
+       x2="85"
+       y1="202"
+       y2="202"
+       id="line1075" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       lengthAdjust="spacing"
+       textLength="166"
+       x="42"
+       y="221.9951"
+       id="text1077">Static Application Files</text>
+    <!--MD5=[96f7e1299d4a43069e6ed32352fcac20]
+entity HTTP-->
+    <ellipse
+       cx="156"
+       cy="327"
+       fill="#FEFECE"
+       filter="url(#f1979s335nar6y)"
+       rx="8"
+       ry="8"
+       style="stroke:#A80036;stroke-width:1.5;"
+       id="ellipse1079" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       lengthAdjust="spacing"
+       textLength="37"
+       x="137.5"
+       y="356.9951"
+       id="text1081">HTTP</text>
+    <!--MD5=[724ecb0efe595e8277f52e2dfdddd33f]
+entity Rehydrated NuxtJS Application-->
+    <rect
+       fill="#FEFECE"
+       filter="url(#f1979s335nar6y)"
+       height="46.2969"
+       style="stroke:#A80036;stroke-width:1.5;"
+       width="261"
+       x="96.5"
+       y="485"
+       id="rect1083" />
+    <rect
+       fill="#FEFECE"
+       height="10"
+       style="stroke:#A80036;stroke-width:1.5;"
+       width="15"
+       x="337.5"
+       y="490"
+       id="rect1085" />
+    <rect
+       fill="#FEFECE"
+       height="2"
+       style="stroke:#A80036;stroke-width:1.5;"
+       width="4"
+       x="335.5"
+       y="492"
+       id="rect1087" />
+    <rect
+       fill="#FEFECE"
+       height="2"
+       style="stroke:#A80036;stroke-width:1.5;"
+       width="4"
+       x="335.5"
+       y="496"
+       id="rect1089" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       lengthAdjust="spacing"
+       textLength="221"
+       x="111.5"
+       y="517.9951"
+       id="text1091">Rehydrated NuxtJS Application</text>
+    <path
+       d="M6,6 L6,61.3984 A0,0 0 0 0 6,61.3984 L132,61.3984 L136,180.955 L140,61.3984 L266,61.3984 A0,0 0 0 0 266,61.3984 L266,16 L256,6 L6,6 A0,0 0 0 0 6,6 "
+       fill="#FBFB77"
+       filter="url(#f1979s335nar6y)"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="path1093" />
+    <path
+       d="M256,6 L256,16 L266,16 L256,6 "
+       fill="#FBFB77"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="path1095" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13"
+       lengthAdjust="spacing"
+       textLength="173"
+       x="12"
+       y="23.0669"
+       id="text1097">&quot;Compiled&quot; application files</text>
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13"
+       lengthAdjust="spacing"
+       textLength="220"
+       x="12"
+       y="38.1997"
+       id="text1099">generated by NuxtJS build process</text>
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13"
+       lengthAdjust="spacing"
+       textLength="239"
+       x="12"
+       y="53.3325"
+       id="text1101">and deployed (committed) to GitHub.</text>
+    <!--MD5=[f3ab4f376d1b73609dda3bf6ed19a58f]
+link PHP Application to JSON:API-->
+    <path
+       d="M391.206,237.176 C385.256,260.975 376.866,294.534 372.291,312.835 "
+       fill="none"
+       id="PHP Application-JSON:API"
+       style="stroke:#A80036;stroke-width:1.0;" />
+    <polygon
+       fill="#A80036"
+       points="371.001,317.998,377.0649,310.2373,372.214,313.1474,369.3039,308.2965,371.001,317.998"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon1104" />
+    <polygon
+       fill="#A80036"
+       points="392.477,232.092,386.4131,239.8527,391.264,236.9426,394.1741,241.7935,392.477,232.092"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon1106" />
+    <!--MD5=[58e7f621339129b1e15270522e8eb181]
+link PHP Application to MySql-->
+    <path
+       d="M428.791,235.332 C452.512,254.847 485.134,281.684 508.724,301.092 "
+       fill="none"
+       id="PHP Application-MySql"
+       style="stroke:#A80036;stroke-width:1.0;" />
+    <polygon
+       fill="#A80036"
+       points="512.724,304.383,508.3156,295.5759,508.8629,301.2062,503.2326,301.7535,512.724,304.383"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon1109" />
+    <polygon
+       fill="#A80036"
+       points="424.853,232.092,429.2614,240.8991,428.7141,235.2688,434.3444,234.7215,424.853,232.092"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon1111" />
+    <!--MD5=[4c0a1619a50369f825055f5170b1a725]
+link PHP Application to File System-->
+    <path
+       d="M454.172,234.133 C496.822,252.457 555.629,277.722 600.778,297.12 "
+       fill="none"
+       id="PHP Application-File System"
+       style="stroke:#A80036;stroke-width:1.0;" />
+    <polygon
+       fill="#A80036"
+       points="605.381,299.097,598.6895,291.8704,600.7867,297.1241,595.5329,299.2213,605.381,299.097"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon1114" />
+    <polygon
+       fill="#A80036"
+       points="449.42,232.092,456.1107,239.3194,454.0141,234.0654,459.2681,231.9688,449.42,232.092"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon1116" />
+    <!--MD5=[f125dd1c348a3630813848c01edd3068]
+link Static Application Files to HTTP-->
+    <path
+       d="M140.689,237.197 C144.791,260.986 150.572,294.515 153.727,312.815 "
+       fill="none"
+       id="Static Application Files-to-HTTP"
+       style="stroke:#A80036;stroke-width:1.0;" />
+    <polygon
+       fill="#A80036"
+       points="154.617,317.978,157.0314,308.4297,153.7684,313.0505,149.1475,309.7875,154.617,317.978"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon1119" />
+    <!--MD5=[e3efb6a07bd3372a8c9725318341b26f]
+link HTTP to Rehydrated NuxtJS Application-->
+    <path
+       d="M159.235,336.156 C169.219,361.328 199.865,438.588 216.309,480.0455 "
+       fill="none"
+       id="HTTP-to-Rehydrated NuxtJS Application"
+       style="stroke:#A80036;stroke-width:1.0;" />
+    <polygon
+       fill="#A80036"
+       points="218.241,484.9179,218.6403,475.0771,216.3972,480.2703,211.2041,478.0272,218.241,484.9179"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon1122" />
+    <!--MD5=[7c6be32a5065acac02cb5eae58af0dbf]
+link JSON:API to Rehydrated NuxtJS Application-->
+    <path
+       d="M359.32,340.202 C336.511,368.954 278.973,441.485 247.815,480.7608 "
+       fill="none"
+       id="JSON:API-Rehydrated NuxtJS Application"
+       style="stroke:#A80036;stroke-width:1.0;" />
+    <polygon
+       fill="#A80036"
+       points="244.518,484.9179,253.2452,480.3532,247.6255,481.0008,246.9779,475.3812,244.518,484.9179"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon1125" />
+    <polygon
+       fill="#A80036"
+       points="362.53,336.156,353.8031,340.7213,359.4228,340.0733,360.0708,345.6929,362.53,336.156"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon1127" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13"
+       lengthAdjust="spacing"
+       textLength="35"
+       x="304"
+       y="425.0669"
+       id="text1129">Axios</text>
+    <!--MD5=[6788d6363c671c221713902773f30eb9]
+@startuml
+cloud "Pantheon" {
+  database "MySql"
+  folder "File System"
+  frame [Drupal] {
+    [PHP Application] <-down-> () "JSON:API"
+  }
+  [PHP Application] <-down-> [MySql]
+  [PHP Application] <-down-> [File System]
+}
+
+cloud "GitHub Pages" {
+  folder "Static Application Files"
+  HTTP <-up- [Static Application Files]
+}
+
+note top of [Static Application Files]
+  "Compiled" application files
+  generated by NuxtJS build process
+  and deployed (committed) to GitHub.
+end note
+
+node "Browser" {
+  HTTP -down-> [Rehydrated NuxtJS Application]
+  [JSON:API] <-down-> [Rehydrated NuxtJS Application] : Axios
+}
+@enduml
+
+PlantUML version 1.2021.2beta5(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+  </g>
+</svg>

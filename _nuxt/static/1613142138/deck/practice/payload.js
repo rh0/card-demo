@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/deck/practice", {data:[{}],fetch:[],mutations:[]});
