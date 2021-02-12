@@ -17,7 +17,7 @@
         </v-card>
       </v-col>
     </v-row>
-    <v-row align-content="stretch"> 
+    <v-row align-content="stretch">
       <v-col
         v-for="(deck, d) in deckList"
         :key="d"
