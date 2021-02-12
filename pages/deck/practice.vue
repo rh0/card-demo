@@ -1,6 +1,18 @@
 <template>
   <v-row justify="center" align="center">
     <v-card
+      flat
+      tile
+      color="transparent"
+    >
+      <v-card-title>Do Something with Data</v-card-title>
+      <v-card-text>
+        <p><strong>¡Aprende español!</strong></p>
+        <hr class="mb-3">
+        <p>Now that we have data from Drupal into our state management system, we are able to do things with that data, that may otherwise be difficult in a drupal context.</p>
+      </v-card-text>
+    </v-card>
+    <v-card
       width="450"
       class="mt-15"
     >
