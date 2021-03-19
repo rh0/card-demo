@@ -32,12 +32,12 @@ This is included in Drupal core, and can be enabled by turning on the JSON:API m
 
 The client request will need to be sure to set 'Content type' and 'Accept' headers as follows:
 
-{{{js
+```js
 Accept: application/vnd.api+json
 Content-Type: application/vnd.api+json
-}}}
+```
 
-=== CORS ===
+### CORS
 
 If you are using the JSON:API in a detached way (making calls from an app not on the same origin) you will run into CORS errors from the browser when trying to make a request.
 
@@ -46,7 +46,7 @@ These headers can be handled in the `services.yml` file, see `default.services.y
   * `services.pantheon.production.yml` loaded for test and live
 
 Example `services.yml` config:
-{{{yaml
+```yaml
    # Configure Cross-Site HTTP requests (CORS).
    # Read https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
    # for more information about the topic in general.
@@ -65,27 +65,27 @@ Example `services.yml` config:
     maxAge: false
     # Sets the Access-Control-Allow-Credentials header.
     supportsCredentials: false
-}}}
+```
 
-== JSON:API Extras ==
+## JSON:API Extras
 
 The [[https://www.drupal.org/project/jsonapi_extras|JSON:API Extras module]] helps to further the configuration of the Drupal API endpoint. Notably it allows you to disable unneeded resources from being exposed to the api. This will increase securtity (not exposing a user list) as well as trimming things down to just what you need in the API with no superflous endpoints. Further it will allow you to set a custom api endpoint (ie `/api` rather than `/jsonapi`).
 
 Install as normal, and you will find it in a new tab on the JSON:API services page. `/admin/config/services/jsonapi/resource_types`
 
-== OpenAPI UI ==
+## OpenAPI UI
 
 [[https://www.drupal.org/project/openapi_ui|OpenApi UI]] module is a helper/documentaion module. It exposes the drupal JSON:API using an installed plugin (most notably [[https://www.drupal.org/project/openapi_ui_swagger|swagger]]) in a format consistent with the OpenAPI standard. This is useful for front end develpment, as it can be used as a table of contents of sorts for all the various endpoints.
 
 Once installed and enabled you can view the sites JSON:API at `/admin/config/services/openapi/swagger/jsonapi`
 
-=== A note on installing the swagger module/plugin ===
+### A note on installing the swagger module/plugin
 
 This is also documented in the module installation instructions. However be sure that you also:
 `composer require composer/installers mnsami/composer-custom-directory-installer`
 as well as including the following in the `composer.json` file:
 
-{{{json
+```json
   "extra": {
     "installer-paths": {
       ...
@@ -93,12 +93,12 @@ as well as including the following in the `composer.json` file:
         ...
     }
   }
-}}}
+```
 
 
 
 
-== Resources: ==
+## Resources:
  * [[https://www.drupal.org/docs/core-modules-and-themes/core-modules/jsonapi-module/jsonapi|Drupal JSON:API Documentation]]
  * [[https://www.drupal.org/project/jsonapi_extras|JSON:API Extras Module]]
  * [[https://jsonapi.org/|JSON:API Specification]]
