@@ -24,9 +24,7 @@ $ npm run deploy
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
-## Notes on the Drupal side.
-
-= JSON:API =
+# Notes for JSON-API on the Drupal side
 
 This is included in Drupal core, and can be enabled by turning on the JSON:API module. It will then expose all drupal entities (that have the appropriate view permissions) to an api endpoint. By default this endpoint is at `/jsonapi`.
 
