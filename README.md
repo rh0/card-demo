@@ -67,13 +67,13 @@ Example `services.yml` config:
 
 ## JSON:API Extras
 
-The [[https://www.drupal.org/project/jsonapi_extras|JSON:API Extras module]] helps to further the configuration of the Drupal API endpoint. Notably it allows you to disable unneeded resources from being exposed to the api. This will increase securtity (not exposing a user list) as well as trimming things down to just what you need in the API with no superflous endpoints. Further it will allow you to set a custom api endpoint (ie `/api` rather than `/jsonapi`).
+The [JSON:API Extras module](https://www.drupal.org/project/jsonapi_extras) helps to further the configuration of the Drupal API endpoint. Notably it allows you to disable unneeded resources from being exposed to the api. This will increase securtity (not exposing a user list) as well as trimming things down to just what you need in the API with no superflous endpoints. Further it will allow you to set a custom api endpoint (ie `/api` rather than `/jsonapi`).
 
 Install as normal, and you will find it in a new tab on the JSON:API services page. `/admin/config/services/jsonapi/resource_types`
 
 ## OpenAPI UI
 
-[[https://www.drupal.org/project/openapi_ui|OpenApi UI]] module is a helper/documentaion module. It exposes the drupal JSON:API using an installed plugin (most notably [[https://www.drupal.org/project/openapi_ui_swagger|swagger]]) in a format consistent with the OpenAPI standard. This is useful for front end develpment, as it can be used as a table of contents of sorts for all the various endpoints.
+[OpenApi UI](https://www.drupal.org/project/openapi_ui) module is a helper/documentaion module. It exposes the drupal JSON:API using an installed plugin (most notably [swagger](https://www.drupal.org/project/openapi_ui_swagger)) in a format consistent with the OpenAPI standard. This is useful for front end develpment, as it can be used as a table of contents of sorts for all the various endpoints.
 
 Once installed and enabled you can view the sites JSON:API at `/admin/config/services/openapi/swagger/jsonapi`
 
@@ -97,10 +97,10 @@ as well as including the following in the `composer.json` file:
 
 
 ## Resources:
- * [[https://www.drupal.org/docs/core-modules-and-themes/core-modules/jsonapi-module/jsonapi|Drupal JSON:API Documentation]]
- * [[https://www.drupal.org/project/jsonapi_extras|JSON:API Extras Module]]
- * [[https://jsonapi.org/|JSON:API Specification]]
- * [[https://www.drupal.org/project/openapi_ui|OpenApi UI]]
- * [[https://www.drupal.org/project/openapi_ui_swagger|Swagger UI for OpenAPI]]
- * [[https://www.drupal.org/node/2715637|Core Issue including CORS opt-in]]
+ * [Drupal JSON:API Documentation](https://www.drupal.org/docs/core-modules-and-themes/core-modules/jsonapi-module/jsonapi)
+ * [JSON:API Extras Module](https://www.drupal.org/project/jsonapi_extras)
+ * [JSON:API Specification](https://jsonapi.org/)
+ * [OpenApi UI](https://www.drupal.org/project/openapi_ui)
+ * [Swagger UI for OpenAPI](https://www.drupal.org/project/openapi_ui_swagger)
+ * [Core Issue including CORS opt-in](https://www.drupal.org/node/2715637)
 
